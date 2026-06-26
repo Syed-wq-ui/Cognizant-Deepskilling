@@ -1,0 +1,13 @@
+public class Test {
+
+    public static void main(String[] args) {
+
+        Logger logger1 = Logger.getInstance();
+        Logger logger2 = Logger.getInstance();
+
+        logger1.displayMesg();
+        logger2.displayMesg();
+
+        System.out.println(logger1 == logger2);
+    }
+}
