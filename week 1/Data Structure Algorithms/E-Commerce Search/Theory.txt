@@ -1,0 +1,17 @@
+What is Big O??
+-->Big O tells us how fast or slow an algorithm works as the amount of data increases
+it measures how much work the computer must do 
+
+There are two 2 types of search operations:-
+1.Linear search-->this algorithm checks all the element one by one
+2.Binary search-->it doesnt check one by one rather it assigns low and high calculates mid value and then find the vaalues according to high and low
+
+but for both these search operation the array need to be sorted 
+
+Best,Average and Worst case
+
+Algorithm Name  |            Best Case           | Average Case              | Worst Case
+                |                                |                           |            
+Linear Search   |Item found at first place-->O(1)|Item found in middle-->o(n)|item is at the end or doesnt exist
+Binary Search   |If the mid element is the target|it keeps dividing-->o(log n)|it keeps on dividing
+                |in first pass-->0(1)            |
