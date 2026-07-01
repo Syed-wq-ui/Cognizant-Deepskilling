@@ -1,0 +1,8 @@
+1.Recursion is a technique in which a method calls itself to break larger problem into smaller sub problems reach to a base case
+and then start computing the answers from there
+
+4.T.C --> O(n) it takes n time for each year/operations
+  S.C --> O(n) 
+
+  we can improve our algorithm by directly applying the compound interest formula it will hadnle large values well and will be more fast
+  
